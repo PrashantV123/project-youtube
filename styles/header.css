@@ -1,0 +1,228 @@
+.header-menu {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.youtube-logo {
+    height: 20px;
+}
+
+
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar {
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    width: 0;
+    /* search-bar shrinks completely */
+}
+
+.search-button {
+    height: 40px;
+    width: 66px;
+    padding: 5px 5px;
+    margin-left: -1px;
+    margin-right: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    position: relative;
+
+}
+
+.search-icon {
+    height: 100%;
+}
+
+.search-button .tooltip {
+    position: absolute;
+    bottom: -31px;
+    right: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 164, 164);
+    border-radius: 3px;
+    font-size: medium;
+    padding: 2px 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search-button:hover .tooltip {
+    opacity: 1;
+}
+
+.voice-search-button {
+    height: 40px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.voice-search-icon {
+    height: 100%;
+}
+
+.voice-search-button .tooltip {
+    position: absolute;
+    bottom: -30px;
+    right: -65px;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 164, 164);
+    border-radius: 3px;
+    font-size: medium;
+    padding: 2px 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.voice-search-button:hover .tooltip {
+    opacity: 1;
+}
+
+
+
+.right-section {
+    width: 180px;
+    display: flex;
+    column-gap: 29px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.upload-icon-container {
+    position: relative;
+}
+
+.upload-icon {
+    height: 24px;
+}
+
+.upload-icon-container .tooltip {
+    position: absolute;
+    bottom: -36px;
+    right: -15px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(164, 164, 164);
+    padding: 2px 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.upload-icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+.youtube-apps-icon-container {
+    position: relative;
+}
+
+.apps-icon {
+    height: 24px;
+}
+
+.youtube-apps-icon-container .tooltip {
+    position: absolute;
+    bottom: -36px;
+    right: -40px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(164, 164, 164);
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.youtube-apps-icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-icon {
+    height: 24px;
+}
+
+.notifications-icon-container .tooltip {
+    position: absolute;
+    bottom: -36px;
+    right: -36px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(164, 164, 164);
+    padding: 2px 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.notifications-icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+.notifications-count {
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    color: white;
+    background-color: rgb(193, 11, 11);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 4px;
+    text-align: center;
+
+}
+
+.profile-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+}
